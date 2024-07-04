@@ -1,0 +1,55 @@
+Source ,Relation,Target
+Application Service,"['FlowRelationship', 'AssociationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Process
+Application Service,"['FlowRelationship', 'AssociationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Function
+Application Service,"['FlowRelationship', 'AssociationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Interaction
+Application Service,"['FlowRelationship', 'AssociationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Event
+Application Service,"['CompositionRelationship', 'FlowRelationship', 'AggregationRelationship', 'AssociationRelationship', 'SpecializationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Service
+Application Service,"['AccessRelationship', 'AssociationRelationship']",Data Object
+Application Service,"['FlowRelationship', 'AssociationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Component
+Application Service,"['FlowRelationship', 'AssociationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Collaboration
+Application Interface,"['FlowRelationship', 'AssignmentRelationship', 'AssociationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Service
+Application Interface,"['FlowRelationship', 'AssociationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Component
+Application Interface,"['FlowRelationship', 'AssociationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Collaboration
+Application Component,"['FlowRelationship', 'AssignmentRelationship', 'AssociationRelationship', 'RealizationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Service
+Application Component,"['FlowRelationship', 'AssignmentRelationship', 'AssociationRelationship', 'RealizationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Process
+Application Component,"['FlowRelationship', 'AssignmentRelationship', 'AssociationRelationship', 'RealizationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Function
+Application Component,"['FlowRelationship', 'AssignmentRelationship', 'AssociationRelationship', 'RealizationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Interaction
+Application Component,"['FlowRelationship', 'AssignmentRelationship', 'AssociationRelationship', 'RealizationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Event
+Application Collaboration,"['FlowRelationship', 'AssignmentRelationship', 'AssociationRelationship', 'RealizationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Service
+Application Collaboration,"['FlowRelationship', 'AssignmentRelationship', 'AssociationRelationship', 'RealizationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Process
+Application Collaboration,"['FlowRelationship', 'AssignmentRelationship', 'AssociationRelationship', 'RealizationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Function
+Application Collaboration,"['FlowRelationship', 'AssignmentRelationship', 'AssociationRelationship', 'RealizationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Interaction
+Application Collaboration,"['FlowRelationship', 'AssignmentRelationship', 'AssociationRelationship', 'RealizationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Event
+Application Process,"['FlowRelationship', 'AssignmentRelationship', 'AssociationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Service
+Application Process,"['CompositionRelationship', 'FlowRelationship', 'AggregationRelationship', 'AssociationRelationship', 'SpecializationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Process
+Application Process,"['CompositionRelationship', 'FlowRelationship', 'AggregationRelationship', 'AssociationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Function
+Application Process,"['CompositionRelationship', 'FlowRelationship', 'AggregationRelationship', 'AssociationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Interaction
+Application Process,"['AccessRelationship', 'AssociationRelationship']",Data Object
+Application Process,"['CompositionRelationship', 'FlowRelationship', 'AggregationRelationship', 'AssociationRelationship', 'SpecializationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Process
+Application Process,"['CompositionRelationship', 'FlowRelationship', 'AggregationRelationship', 'AssociationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Function
+Application Process,"['CompositionRelationship', 'FlowRelationship', 'AggregationRelationship', 'AssociationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Interaction
+Application Process,"['FlowRelationship', 'AssociationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Event
+Application Function,"['FlowRelationship', 'AssignmentRelationship', 'AssociationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Service
+Application Function,"['CompositionRelationship', 'FlowRelationship', 'AggregationRelationship', 'AssociationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Process
+Application Function,"['CompositionRelationship', 'FlowRelationship', 'AggregationRelationship', 'AssociationRelationship', 'SpecializationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Function
+Application Function,"['CompositionRelationship', 'FlowRelationship', 'AggregationRelationship', 'AssociationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Interaction
+Application Function,"['AccessRelationship', 'AssociationRelationship']",Data Object
+Application Function,"['CompositionRelationship', 'FlowRelationship', 'AggregationRelationship', 'AssociationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Process
+Application Function,"['CompositionRelationship', 'FlowRelationship', 'AggregationRelationship', 'AssociationRelationship', 'SpecializationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Function
+Application Function,"['CompositionRelationship', 'FlowRelationship', 'AggregationRelationship', 'AssociationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Interaction
+Application Function,"['FlowRelationship', 'AssociationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Event
+Application Interaction,"['FlowRelationship', 'AssignmentRelationship', 'AssociationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Service
+Application Interaction,"['CompositionRelationship', 'FlowRelationship', 'AggregationRelationship', 'AssociationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Process
+Application Interaction,"['CompositionRelationship', 'FlowRelationship', 'AggregationRelationship', 'AssociationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Function
+Application Interaction,"['CompositionRelationship', 'FlowRelationship', 'AggregationRelationship', 'AssociationRelationship', 'SpecializationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Interaction
+Application Interaction,"['AccessRelationship', 'AssociationRelationship']",Data Object
+Application Interaction,"['CompositionRelationship', 'FlowRelationship', 'AggregationRelationship', 'AssociationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Process
+Application Interaction,"['CompositionRelationship', 'FlowRelationship', 'AggregationRelationship', 'AssociationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Function
+Application Interaction,"['CompositionRelationship', 'FlowRelationship', 'AggregationRelationship', 'AssociationRelationship', 'SpecializationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Interaction
+Application Interaction,"['FlowRelationship', 'AssociationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Event
+Application Event,"['FlowRelationship', 'AssociationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Process
+Application Event,"['FlowRelationship', 'AssociationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Function
+Application Event,"['FlowRelationship', 'AssociationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Interaction
+Application Event,"['AccessRelationship', 'AssociationRelationship']",Data Object
+Application Event,"['FlowRelationship', 'AssociationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Service
+Application Event,"['CompositionRelationship', 'FlowRelationship', 'AggregationRelationship', 'AssociationRelationship', 'SpecializationRelationship', 'TriggeringRelationship', 'ServingRelationship']",Application Event
